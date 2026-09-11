@@ -1,0 +1,29 @@
+# Confidential or derived data
+data/
+private_data/
+prepared_data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.npz
+*.npy
+
+# Model outputs and checkpoints
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
